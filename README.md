@@ -1,5 +1,5 @@
 # Tournament Tracker
 
-A demo tournament tracker system. Coded in C#/.NET.
+A demo tournament tracker system coded in C#/.NET
 
-http://kth.me/projects/tournamenttracker/
+https://benjaminhook.dev/projects/tournamenttracker/
