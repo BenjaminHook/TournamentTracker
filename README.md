@@ -2,4 +2,4 @@
 
 A demo tournament tracking system coded in C#/.NET
 
-https://benjaminhook.dev/projects/tournamenttracker/
+https://benjaminhook.dev/projects/tournament-tracker/
