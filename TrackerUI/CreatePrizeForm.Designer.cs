@@ -37,6 +37,8 @@
             this.priceAmountLabel = new System.Windows.Forms.Label();
             this.prizePercentageValueTextBox = new System.Windows.Forms.TextBox();
             this.prizePercentageLabel = new System.Windows.Forms.Label();
+            this.orLabel = new System.Windows.Forms.Label();
+            this.createPrizeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // headerLabel
@@ -123,12 +125,40 @@
             this.prizePercentageLabel.TabIndex = 29;
             this.prizePercentageLabel.Text = "Prize Percentage";
             // 
+            // orLabel
+            // 
+            this.orLabel.AutoSize = true;
+            this.orLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.orLabel.Location = new System.Drawing.Point(197, 235);
+            this.orLabel.Name = "orLabel";
+            this.orLabel.Size = new System.Drawing.Size(64, 37);
+            this.orLabel.TabIndex = 31;
+            this.orLabel.Text = "-or-";
+            // 
+            // createPrizeButton
+            // 
+            this.createPrizeButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.createPrizeButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.createPrizeButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.createPrizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.createPrizeButton.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.createPrizeButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.createPrizeButton.Location = new System.Drawing.Point(125, 394);
+            this.createPrizeButton.Name = "createPrizeButton";
+            this.createPrizeButton.Size = new System.Drawing.Size(190, 60);
+            this.createPrizeButton.TabIndex = 32;
+            this.createPrizeButton.Text = "Create Prize";
+            this.createPrizeButton.UseVisualStyleBackColor = true;
+            // 
             // CreatePrizeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(588, 524);
+            this.ClientSize = new System.Drawing.Size(455, 507);
+            this.Controls.Add(this.createPrizeButton);
+            this.Controls.Add(this.orLabel);
             this.Controls.Add(this.prizePercentageValueTextBox);
             this.Controls.Add(this.prizePercentageLabel);
             this.Controls.Add(this.prizeAmountValueTextBox);
@@ -158,5 +188,7 @@
         private System.Windows.Forms.Label priceAmountLabel;
         private System.Windows.Forms.TextBox prizePercentageValueTextBox;
         private System.Windows.Forms.Label prizePercentageLabel;
+        private System.Windows.Forms.Label orLabel;
+        private System.Windows.Forms.Button createPrizeButton;
     }
 }
